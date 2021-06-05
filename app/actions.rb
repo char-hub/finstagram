@@ -46,4 +46,5 @@ def humanized_time_ago(time_ago_in_minutes)
       }]
     }
     [finstagram_post_shark, finstagram_post_whale, finstagram_post_marlin].to_s
+    erb(:index)
   end
